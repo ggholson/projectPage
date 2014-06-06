@@ -1,0 +1,41 @@
+html, body, div{
+     height:100%;  
+}
+
+.menu{
+    background-color:#FF0000;
+    /*opacity:.25; */
+}
+
+.content{
+    background-color:#00FF00;
+    opacity:.25;
+}
+
+.spacer{
+    background-color:#FFFFFF;
+}
+
+.splash{
+    background-color:black;
+    opacity:.9;
+    height:90%;
+    width:90%;
+    position:fixed;
+    z-index:1;
+    top:5%;
+    left:5%;
+    border-radius:50px;
+}
+
+.splashText{
+    position:relative;
+    top:40%;
+    left:40%;
+    color:white;
+    opacity:1;
+}
+
+.menubar,.menuText{
+    opacity:1;
+}
